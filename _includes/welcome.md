@@ -1,12 +1,12 @@
-# Welcome
+# Selamat Datang
 
-There's a lot of outdated information on the Web that leads new PHP users astray, propagating bad practices and bad
-code. This must stop. _PHP: The Right Way_ is an easy-to-read, quick reference for PHP best practices, accepted coding
-standards, and links to authoritative tutorials around the Web.
+Diluar sana, terdapat banyak informasi di Internet mengenai bahasa PHP yang sudah tidak lagi aktual. Hal tersebut dapat membingungkan para pengguna PHP. Konsekuensinya adalah mereka menerapkan praktik yang kurang benar selama mengembangkan aplikasi menggunakan PHP.
 
-## Translations
+Hal di atas harus dihentikan. _PHP: The Right Way_ adalah referensi cepat, dan mudah dibaca mengenai praktik-praktik dan standar koding yang dianjurkan. Sumber luar terpercaya juga disertakan dalam referensi ini.
 
-_PHP: The Right Way_ is (or soon will be) translated into many different languages:
+## Terjemahan
+
+_PHP: The Right Way_ sudah tersedia(atau dalam proses) dalam bahasa berikut:
 
 * [English](http://www.phptherightway.com)
 * [Catalan](http://ca.phptherightway.com)
@@ -20,24 +20,21 @@ _PHP: The Right Way_ is (or soon will be) translated into many different languag
 * [Ukrainian](http://iflista.github.com/php-the-right-way/)
 * [Bulgarian](http://bg.phptherightway.com/)
 * [German](http://rwetzlmayr.github.io/php-the-right-way/)
+* [Indonesian](http://keripix.github.io/php-the-right-way/)
 
 ## Disclaimer
 
-_There is no canonical way to use PHP_. However, this website is a humble display of best practices,
-available options, and good information. It aims to introduce new PHP developers and to rethink seasoned pros with fresh
-ideas.
+_Tidak ada cara paling tepat dalam menggunakan PHP_. Namun, referensi ini berusaha menyajikan praktik-praktik dan informasi terbaik.
 
-This is a living document and will continue to be updated with more helpful information and examples as they become
-available.
+Dokumen ini sifatnya aktif. Ia akan terus dikembangkan dengan informasi dan contoh-contoh terbaru ketika keduanya sudah tersedia.
 
-## How to Contribute
+## Cara Berkontribusi
 
-Help make this website the best resource for new PHP programmers! [Contribute on GitHub][1]
+Bergabunglah untuk menjadikan referensi ini sebagai referensi terbaik bagi para pengguna PHP yang baru [Contribute on GitHub][1]
 
-## Spread the Word!
+## Sebarkan!
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP developers
-know where to find good information!
+_PHP: The Right Way_ memiliki _web banner_ yang dapat Anda gunakan di website Anda. Tunjukkan dukunganmu dengan menggunakan _web banner_ tersebut dan bantulah para pengguna PHP memperoleh informasi yang berkualitas.
 
 [See Banner Images][2]
 

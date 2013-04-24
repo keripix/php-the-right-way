@@ -4,20 +4,16 @@ isChild: true
 
 ## Vagrant {#vagrant_title}
 
-Running your application on different environments in development and production can lead to strange bugs 
-popping up when you go live. It's also tricky to keep different development environments up to date with the same 
-version for all libraries used when working with a team of developers. 
+Menjalankan aplikasi dengan lingkungan yang berbeda antara proses pengembangan dan proses produksi dapat berujung pada _bugs_ yang aneh. Hal yang tidak mudah juga untuk menjaga agar library yang digunakan adalah sama dan sudah terbaru ketika bekerja secara bersama-sama dalam sebuah tim.
 
-If you are developing on Windows and deploying to Linux (or anything non-Windows) or are developing in a team, you 
-should consider using a virtual machine. This sounds tricky, but using [Vagrant][vagrant] you can set up a simple 
-virtual machine with only a few steps. These base boxes can then be set up manually, or you can use "provisioning" 
-software such as [Puppet][puppet] or [Chef][chef] to do this for you. Provisioning the base box is a great way to 
-ensure that multiple boxes are set up in an identical fashion and removes the need for you to maintain complicated 
+Bila Anda bekerja di Windows dan melakukan _deployment_ ke Linux (atau platform lainnya selain Windows), atau Anda mengembangkan dalam sebuah tim, Anda perlu mencoba menggunakan _virtual machine_. Ini terdengar rumit, tetapi dengan menggunakan [Vagrant][vagrant], Anda dapat menyiapkan sebuah _virtual machine_ dengan beberapa langkah saja. _Virtual Machine_ ini kemudian dapat dipasang secara manual atau Anda dapat melakukannya dengan menggunakan aplikasi semacam [Puppet][puppet] atau [Chef][chef].
+
+Provisioning the base box is a great way to
+ensure that multiple boxes are set up in an identical fashion and removes the need for you to maintain complicated
 "set up" command lists. You can also "destroy" your base box and recreate it without many manual steps, making it
 easy to create a "fresh" installation.
 
-Vagrant creates shared folders used to share your code between your host and your virtual machine, meaning you can 
-create and edit your files on your host machine and then run the code inside your virtual machine.
+Vagrant menciptakan sebuah direktori yang digunakan untuk berbagi kode antara host Anda dan _virtual machine_ Anda. Sehingga Anda dapat melakukan pengkodean di mesin host Anda, namun menjalankannya di dalam _virtual machine_.
 
 [vagrant]: http://vagrantup.com/
 [puppet]: http://www.puppetlabs.com/

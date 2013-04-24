@@ -4,18 +4,12 @@ isChild: true
 
 ## Windows Setup {#windows_setup_title}
 
-PHP is available in several ways for Windows. You can [download the binaries][php-downloads] and until recently you could use a '.msi' 
-installer. The installer is no longer supported and stops at PHP 5.3.0.
+PHP tersedia dengan beragam cara untuk Windows. Anda dapat [mengunduh binarinya][php-downloads].
 
-For learning and local development you can use the built in webserver with PHP 5.4 so you don't need to worry about configuring it. If you 
-would like an "all-in-one" which includes a full-blown webserver and MySQL too then tools such as the [Web Platform Installer][wpi], 
-[Zend Server CE][zsce], [XAMPP][xampp] and [WAMP][wamp] will help get a Windows development environment up and running fast. That said, these tools will be 
-a little different from production so be careful of environment differences if you are working on Windows and deploying to Linux.
+Untuk proses pembelajaran dan pengembangan lokal, Anda dapat menggunakan server bawaan yang tersedia pada PHP 5.4. Bila Anda menginginkan paket lengkap yang hadir dengan webserver dan MySQL dan tanpa proses pengaturan yang terbilang rumit, Anda dapat mencoba [Web Platform Installer][wpi],
+[Zend Server CE][zsce], [XAMPP][xampp] dan [WAMP][wamp]. Namun, hendaklah Anda waspada mengenai perbedaan ketika Anda mengembangkan aplikasi PHP di Windows, dan kemudian melakukan _deployment_ di Linux.
 
-If you need to run your production system on Windows then IIS7 will give you the most stable and best performance. You can use 
-[phpmanager][phpmanager] (a GUI plugin for IIS7) to make configuring and managing PHP simple. IIS7 comes with FastCGI built in and ready 
-to go, you just need to configure PHP as a handler. For support and additional resources there is a [dedicated area on iis.net][php-iis] for 
-PHP.
+Bila Anda hendak melakukan _deployment_ di Windows, maka IIS7 dapat memberikan performa yang stabil dan baik. Anda dapat menggunakan [phpmanager][phpmanager] (plugin GUI untuk IIS7) untuk melakukan pengaturan dan pengelolaan PHP. IIS7 hadir dengan FastCGI bawaan dan sudah siap untuk dipakai, Anda hanya perlu mengatur PHP sebagai _handler_-nya. Untuk dukungan dan informasi tambahan, terdapat [sumber khusus di iis.net][php-iis] untuk PHP.
 
 [php-downloads]: http://windows.php.net
 [phpmanager]: http://phpmanager.codeplex.com/
